@@ -1,0 +1,1 @@
+CONDA_OVERRIDE_CUDA="11.8" mamba create -n diff_const_learn jaxlib=*=*cuda* jax cuda-nvcc tensorflow-gpu python -c conda-forge -c nvidia
